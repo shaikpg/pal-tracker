@@ -4,15 +4,6 @@ plugins {
     id 'java'
 }
 
-
-jar {
-    manifest {
-        attributes(
-                "Main-Class": "io.pivotal.pal.tracker.PalTrackerApplication"
-        )
-    }
-}
-
 repositories {
     mavenCentral()
 }
